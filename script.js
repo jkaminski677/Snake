@@ -94,7 +94,7 @@ window.addEventListener("load", () => {
   function generateAppleLocation() {
     let location;
     do {
-      location = { x: generateRandomNumber(29), y: generateRandomNumber(19) };
+      location = { x: generateRandomNumber(21), y: generateRandomNumber(21) };
     } while (
       snake.filter(
         (square) => square.x === location.x && square.y === location.y
